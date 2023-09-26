@@ -39,8 +39,6 @@ h5 {
 /* Formulario de tarea */
 #task-form {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-bottom: 2%;
 }
 
@@ -95,8 +93,8 @@ h5 {
 
 #task-list li {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     padding: 30px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -145,4 +143,20 @@ h5 {
 
 #clear-completed:hover {
     background-color: #cf0064;
+}
+
+/* Media Queries para hacer responsive */
+@media (min-width: 768px) {
+    /* Estilos específicos para tabletas y pantallas más grandes */
+    #task-form {
+        flex-direction: row; /* Restauramos la dirección para tabletas y pantallas más grandes */
+    }
+
+    #new-task {
+        width: auto; /* Restauramos el ancho predeterminado para tabletas y pantallas más grandes */
+    }
+
+    #task-form button {
+        width: auto; /* Restauramos el ancho predeterminado para tabletas y pantallas más grandes */
+    }
 }
