@@ -17,9 +17,12 @@ Practico y elegante contador regresivo para para informar y generar espectativa 
 
 ## Tecnologías Utilizadas
 
-- HTML
-- CSS
-- JavasCript
+<div aline="left">
+<div>
+<img src="https://img.icons8.com/color/1x/html-5.png" title="HTML" alt="HTML" width="50" height="50"/>
+<img src="https://img.icons8.com/color/1x/css3.png" title="CSS" alt="CSS" width="50" height="50"/>
+<img src="https://img.icons8.com/color/1x/javascript.png" title="JavaScript" alt="JavaScript" width="50" height="50"/>
+</div>
 
 ## Contribución
 
