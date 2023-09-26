@@ -1,7 +1,3 @@
-# TaskMaster
-
-
-
 <h1>Task Master</h1>
 <h2>Organizador de tareas personal</h2>
 
@@ -13,7 +9,7 @@ Practico y elegante contador regresivo para para informar y generar espectativa 
 
 ## Capturas de Pantalla
 
-<img src="">
+<img src="https://raw.githubusercontent.com/ruben-lugo1/TaskMaster/main/Task%20Master.jpg">
 
 ## Características
 
