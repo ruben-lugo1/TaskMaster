@@ -1,0 +1,148 @@
+/* Resetear estilos y definir fuentes */
+body {
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+    background-color: #6a6a6a;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+/* Encabezado */
+h1 {
+    text-align: center;
+    color: #e6006f;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+h5 {
+    text-align: center;
+    color: #cbcbcb;
+    margin-top: 10%;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+/* Formulario de tarea */
+#task-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+#new-task {
+    margin-top: 1.6%;
+    flex-grow: 1;
+    padding: 0.5%;
+    border: none;
+    border-radius: 10px;
+    border-color: #454545;
+    box-shadow: 0 0 5px rgba(163, 23, 23, 0.2);
+    font-size: 90%;
+    margin-left: 19.6%;
+    margin-right: 3%;
+}
+
+#new-task::placeholder {
+    color: #aaa;
+}
+
+#new-task:focus {
+    outline: none;
+}
+
+#new-task:focus::placeholder {
+    color: transparent;
+}
+
+#task-form button {
+    background-color: #01e6d7;
+    color: #454545;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 19.7%;
+    padding: 0.6%;
+    margin-top: 1.5%;
+    font-size:70%
+}
+
+#task-form button:hover {
+    background-color: #01c0b3;
+}
+
+/* Lista de tareas */
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #01e6d7;
+    transition: background-color 0.3s ease;
+    margin-inline: 500px;
+}
+
+#task-list li.completed {
+    background-color: #e6006f; /* Color para tareas completadas */
+    text-decoration: line-through;
+}
+
+#task-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* Botón de eliminar */
+.delete-button {
+    background-color: #ff4136;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #d0021b;
+}
+
+/* Botón para borrar completadas */
+#clear-completed {
+    background-color: #ff027c;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-inline: 500px;
+    font-size:70%
+}
+
+#clear-completed:hover {
+    background-color: #cf0064;
+}
