@@ -1,5 +1,6 @@
 /* Resetear estilos y definir fuentes */
 body {
+    flex-direction: column;
     font-family: Arial, sans-serif;
     font-size: xx-large;
     margin: 0;
