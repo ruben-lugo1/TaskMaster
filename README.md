@@ -5,7 +5,7 @@ Puedes acceder al sitio web en línea en: https://brilliant-granita-87f4d9.netli
 
 ## Descripción
 
-Practico y elegante contador regresivo para para informar y generar espectativa a la hora de lanzar tu pagina web, inaugurar tu tienda o cualquiel otro tipo e eventos online.
+Contador regresivo muy util a la hora realizar tu agenda diaria o semanal de las tareas a realizar, con la funcion de poder marcar y eliminar las tareas ya cumplidas, optimizando asi nuestro rendimiento y objetivos. 
 
 <img src="https://raw.githubusercontent.com/ruben-lugo1/TaskMaster/main/Task%20Master.jpg">
 
